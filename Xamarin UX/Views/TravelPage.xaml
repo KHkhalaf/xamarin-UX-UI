@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local = "clr-namespace:Xamarin_UX.ViewModels"
+             x:Class="Xamarin_UX.Views.TravelPage">
+    <ContentPage.BindingContext >
+        <local:TravelViewModel />
+    </ContentPage.BindingContext >
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!-- Principal-->
+            <StackLayout BackgroundColor="#f8b732" HeightRequest="350">
+                <!-- Main image-->
+                <Image Source="PrincipalImage" HeightRequest="180" WidthRequest="180" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,30,0,0"/>
+                <!-- Place name & travel date-->
+                <Label Margin="30,0,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="San Francisco " FontSize="28" FontAttributes="Bold" ForegroundColor="White" />
+                            <Span Text="17 November - 24 November" FontSize="17" ForegroundColor="White" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Frame CornerRadius="33" Margin="0,0,0,-20" BackgroundColor="#f8b732" HasShadow="False" HeightRequest="25" VerticalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <!-- Days-->
+            <ScrollView VerticalScrollBarVisibility="Never"
+                        VerticalOptions="Start" 
+                        HeightRequest="90"  
+                        Orientation ="Horizontal">
+                <StackLayout x:Name="DaysBlock" 
+                                 Orientation="Horizontal"
+                                 HorizontalOptions="FillAndExpand"
+                                 Padding="20,18,20,2">
+                </StackLayout>
+            </ScrollView>
+
+            <!-- Schedule-->
+            <Frame CornerRadius="35" Margin="0,0,0,-30" BackgroundColor="#ffeecc" HasShadow="False" HeightRequest="18" VerticalOptions="EndAndExpand"/>
+            <StackLayout BackgroundColor="#ffeecc">
+                <CollectionView ItemsSource="{Binding travelSchedule}"
+                                VerticalOptions="Start">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal" Padding="30,10">
+
+                                <!-- Time-->
+                                <Label Text="{Binding Time}" FontAttributes="Bold" FontSize="18"/>
+
+                                <!-- Travel indicator-->
+                                <StackLayout Orientation="Vertical">
+                                    <Image   Source="{Binding TransportType}" HeightRequest="30"/>
+                                    <BoxView VerticalOptions="FillAndExpand" WidthRequest="2" Color="{Binding TransportColor}" HeightRequest="70" Margin="20,0"/>
+                                </StackLayout>
+
+                                <!-- Place to go-->
+                                <Image Source="{Binding Picture}" HeightRequest="80" WidthRequest="90" VerticalOptions="Start" />
+
+                                <!-- Place description-->
+                                <StackLayout>
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="16" />
+                                    <Label Text="{Binding Adress1}" FontSize="15" TextColor="Silver"/>
+                                    <Label Text="{Binding Adress2}" FontSize="15" TextColor="Silver"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

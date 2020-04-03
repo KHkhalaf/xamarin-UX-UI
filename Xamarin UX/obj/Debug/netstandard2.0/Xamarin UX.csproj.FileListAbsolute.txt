@@ -1,0 +1,22 @@
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\bin\Debug\netstandard2.0\Xamarin UX.deps.json
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\bin\Debug\netstandard2.0\Xamarin UX.dll
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\bin\Debug\netstandard2.0\ref\Xamarin UX.dll
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\bin\Debug\netstandard2.0\Xamarin UX.pdb
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Xamarin UX.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Xamarin UX.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Xamarin UX.AssemblyInfo.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Xamarin UX.dll
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\ref\Xamarin UX.dll
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Xamarin UX.pdb
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\MarketPage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\TravelPage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\BankingProfilePage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\FoodPage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
+C:\Users\hp\source\repos\Xamarin UX\Xamarin UX\obj\Debug\netstandard2.0\XamlC.stamp

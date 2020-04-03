@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       mc:Ignorable="d"
+       xmlns:local="clr-namespace:Xamarin_UX.Views"
+       Shell.NavBarIsVisible="False"
+       FlyoutHeaderBehavior="CollapseOnScroll"
+       Shell.ItemTemplate="{StaticResource MenuTemplate}"
+       Shell.MenuItemTemplate="{StaticResource MenuTemplate}"
+       Shell.FlyoutHeaderTemplate="{StaticResource FlyoutHeaderTemplate}"
+       Title="Xamarin_UX"
+       x:Class="Xamarin_UX.AppShell">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="MenuTemplate">
+                <StackLayout Orientation="Horizontal" Margin="0,10">
+                    <Image Margin="30,10,20,10" Source="{Binding Icon}" WidthRequest="27" HeightRequest="27" HorizontalOptions="Start" VerticalOptions="Center"/>
+                    <Label Text="{Binding Title}" TextColor="#686868" FontSize="20" VerticalOptions="Center"/>
+                </StackLayout>
+            </DataTemplate>
+            <DataTemplate x:Key="FlyoutHeaderTemplate">
+                <ContentView BackgroundColor="#ffd719" HeightRequest="245">
+                    <Image Source="xamarin_logo.png" WidthRequest="96" HeightRequest="96"
+                       HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentView>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <ShellContent Title="Market" Icon="cart.png" ContentTemplate="{DataTemplate local:MarketPage}"/>
+    <ShellContent Title="Travel" Icon="airport.png" ContentTemplate="{DataTemplate local:TravelPage}"/>
+    <ShellContent Title="Booking" Icon="booking.png" ContentTemplate="{DataTemplate local:BankingProfilePage}"/>
+    <ShellContent Title="Facebook Profile" Icon="facebook.png" ContentTemplate="{DataTemplate local:ProfilePage}"/>
+    <ShellContent Title="Food" Icon="food.png" ContentTemplate="{DataTemplate local:FoodPage}"/>
+
+</Shell>

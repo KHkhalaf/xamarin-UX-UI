@@ -3,14 +3,4 @@ build awesome UI&amp;UX and modern pages in the app like ( market page, booking 
 
 Screenshot for pages :
 
-https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_1.png
-
-https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_2.png
-
-https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_3.png
-
-https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_4.png
-
-https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_5.png
-
-https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_6.png
+https://drive.google.com/file/d/1Af5WhtIG23ftubxNfO3lbRafuDsK6862/view?usp=sharing

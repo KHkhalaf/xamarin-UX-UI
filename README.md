@@ -13,4 +13,5 @@ https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_4.png
 
 https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_5.png
 
-https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_6.png
+![alt text](https://github.com/KHkhalaf/xamarin-UX-UI/blob/master/Screenshot_6.png)
+
